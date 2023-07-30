@@ -6,3 +6,13 @@ sectionPagesMenu = "main"
 [params]
   githubRepo = 'https://github.com/bkleinen/minimal-site'
   githubEditPath = "edit/main/"
+
+[module]
+  private = '*.*'
+  proxy = 'direct'
+  workspace = 'off'
+[[module.imports]]
+  path = 'github.com/bkleinen/minimal-site-module'
+[[module.imports]]
+  source = "content/archive"
+  target = "content"
