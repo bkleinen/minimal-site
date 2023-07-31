@@ -5,5 +5,8 @@ draft: true
 weight: 75
 ---
 
-Index directly in path. would override index ?!
+Index directly in path. 
 
+would override index ?!
+
+no. original index is used.
