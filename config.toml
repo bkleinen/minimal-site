@@ -7,22 +7,6 @@ sectionPagesMenu = "main"
   githubRepo = 'https://github.com/bkleinen/minimal-site'
   githubEditPath = "edit/main/"
 
-[module]
-  private = '*.*'
-  proxy = 'direct'
-  workspace = 'off'
-  replacements = 'github.com/bkleinen/minimal-site-module -> ../../minimal-module, github.com/bkleinen/minimal-site-local-module -> ../local-module'
-
-
-[[module.import]]
-  path = 'github.com/bkleinen/minimal-site-module'
-  
-[[module.import]]
-  path = 'github.com/bkleinen/minimal-site-local-module'
-[[module.mounts]]
-  source = "content"
-  target = "content"
-
 [sitemap]
   changefreq = 'monthly'
   filename = 'sitemap.xml'
