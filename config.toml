@@ -15,12 +15,17 @@ sectionPagesMenu = "main"
 
 [[module.imports]]
   path = 'github.com/bkleinen/minimal-site-local-module'
-
+  [[module.imports.mounts]]
+  source = "other_path_name"
+  target = "content/from_local_module"
+  [[module.imports.mounts]]
+  source = "content"
+  target = "content"
 [[module.imports]]
   path = 'github.com/bkleinen/minimal-site-module'
   [[module.imports.mounts]]
   source = "other_path_name"
-  target = "content/other"
+  target = "content"
   [[module.imports.mounts]]
   source = "content"
   target = "content"
