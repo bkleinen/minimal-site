@@ -11,8 +11,19 @@ sectionPagesMenu = "main"
   private = '*.*'
   proxy = 'direct'
   workspace = 'off'
-[[module.imports]]
+  replacements = 'github.com/bkleinen/minimal-site-module -> ../../minimal-module, github.com/bkleinen/minimal-site-local-module -> ../local-module'
+
+
+[[module.import]]
   path = 'github.com/bkleinen/minimal-site-module'
-[[module.imports]]
-  source = "content/archive"
+  
+[[module.import]]
+  path = 'github.com/bkleinen/minimal-site-local-module'
+[[module.mounts]]
+  source = "content"
   target = "content"
+
+[sitemap]
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 0.5
