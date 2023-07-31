@@ -1,6 +1,2 @@
-github.com/bkleinen/minimal-site-module v0.0.0-20230730183417-236f6449a46d h1:fUD8Z6ck9cRNi0ya/s52t6QgZ8SiuzD/fQg7iglh2CM=
-github.com/bkleinen/minimal-site-module v0.0.0-20230730183417-236f6449a46d/go.mod h1:hE2ZP/ugoqWCZMbdAxv056Sm2ABxojApbj6gJeH+iC4=
-github.com/bkleinen/minimal-site-module v0.0.0-20230730183654-cd391beabf2b h1:dX1i61hiNF36c3EkAizB6qSLI0NKI/S8igOeDVE3Kq8=
-github.com/bkleinen/minimal-site-module v0.0.0-20230730183654-cd391beabf2b/go.mod h1:hE2ZP/ugoqWCZMbdAxv056Sm2ABxojApbj6gJeH+iC4=
-github.com/bkleinen/minimal-site-module v0.1.0 h1:YIS/4yeRACL8LSls89+8CbsOvG1zetokQDThBPkmluM=
-github.com/bkleinen/minimal-site-module v0.1.0/go.mod h1:hE2ZP/ugoqWCZMbdAxv056Sm2ABxojApbj6gJeH+iC4=
+github.com/bkleinen/minimal-site-module v0.1.1 h1:h9YgsSNYf8FNSyqAzXHsP+8l3xeRbJ8m22vWO03WXGE=
+github.com/bkleinen/minimal-site-module v0.1.1/go.mod h1:hE2ZP/ugoqWCZMbdAxv056Sm2ABxojApbj6gJeH+iC4=
