@@ -8,4 +8,5 @@ hugo :  open
 
 open :
 -  open http://localhost:${port}
--  open http://localhost:${port}/sitemap.xml
+
+# -  open http://localhost:${port}/sitemap.xml

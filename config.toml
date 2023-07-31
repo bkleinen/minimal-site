@@ -10,14 +10,24 @@ sectionPagesMenu = "main"
 [module]
   private = '*.*'
   proxy = 'direct'
-  replacements = 'github.com/bkleinen/minimal-site-local-module -> ../local-module'
-#  replacements = 'github.com/bkleinen/minimal-site-module -> ../../minimal-module, github.com/bkleinen/minimal-site-local-module -> ../local-module'
+#  replacements = 'github.com/bkleinen/minimal-site-local-module -> ../local-module'
+  replacements = 'github.com/bkleinen/minimal-site-module -> ../../minimal-module, github.com/bkleinen/minimal-site-local-module -> ../local-module'
 
 [[module.imports]]
   path = 'github.com/bkleinen/minimal-site-local-module'
 
 [[module.imports]]
   path = 'github.com/bkleinen/minimal-site-module'
+  [[module.imports.mounts]]
+  source = "other_path_name"
+  target = "content/other"
+  [[module.imports.mounts]]
+  source = "content"
+  target = "content"
+
+[[module.mounts]]
+  source = "local_other_path_name"
+  target = "content"
 
 [[module.mounts]]
   source = "content"
